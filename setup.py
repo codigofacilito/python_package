@@ -5,11 +5,11 @@ this_directory = Path(__file__).parent
 long_description = (this_directory / "README.md").read_text()
 
 VERSION = '0.0.1'
-DESCRIPTION = 'Description'
-PACKAGE_NAME = 'Package Name'
-AUTHOR = ''
-EMAIL = ''
-GITHUB_URL = ''
+DESCRIPTION = 'Permite consumir el API de Codigo Facilito'
+PACKAGE_NAME = 'codfacapipy'
+AUTHOR = 'aleco_rodri'
+EMAIL = 'aleco.rodri@gmail.com'
+GITHUB_URL = 'alecorodri/codfacapipy'
 
 setup(
     name = PACKAGE_NAME,
