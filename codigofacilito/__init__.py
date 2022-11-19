@@ -1,3 +1,3 @@
-from codigofacilito.workshops import unreleased
-from codigofacilito.workshops import articles
-from codigofacilito.workshops import allWorkshops
+from codigofacilito.views import show_unreleased
+from codigofacilito.views import show_articles
+from codigofacilito.views import show_allWorkshops
