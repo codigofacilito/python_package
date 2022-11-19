@@ -3,6 +3,8 @@ from codigofacilito.workshops import articles
 from codigofacilito.workshops import allWorkshops
 
 def show_articles():
+    """Muestra de manera amigable los atributos importantes de los articulos recibidos
+    """
     articles_out = articles()
     punto = 1
     for lista in articles_out['articles']:
@@ -12,6 +14,8 @@ def show_articles():
         punto += 1
 
 def show_unreleased():
+    """Muestra de manera amigable los atributos importantes de los proximos talleres
+    """
     unreleased_out = unreleased()
     punto = 1
     for lista in unreleased_out['workshops']:
@@ -26,6 +30,8 @@ def show_unreleased():
         punto += 1
 
 def show_allWorkshops():
+    """Muestra de manera amigable los atributos importantes de todos los talleres
+    """
     allWorkshops_out = allWorkshops()
     punto = 1
     for lista in allWorkshops_out:
